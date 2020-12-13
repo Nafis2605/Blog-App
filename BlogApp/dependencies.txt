@@ -1,0 +1,30 @@
+npm install
+expo init project_name (select blank)
+npm install @react-navigation/native 
+npm install @react-navigation/stack
+expo install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+Picker
+    npm install @react-native-community/picker --save
+
+React native Elements -
+    
+    npm install react-native-elements
+
+Tab Navigation 
+    npm install @react-navigation/material-bottom-tabs react-native-paper
+
+Drawer Navigation
+    npm install @react-navigation/drawer
+
+API 
+    npm install apisauce
+
+Net Info
+    npm install @react-native-community/netinfo
+
+Firebase
+    npm install firebase
+
+Publish
+    expo publish --release-channel blog app
