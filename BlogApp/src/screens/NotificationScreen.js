@@ -4,7 +4,7 @@ import { View, StyleSheet } from "react-native";
 const NotificationScreen = () => {
     return (
         <View>
-            <Text style={styles.textStyle}>Edit Profile Screen</Text>
+            <Text style={styles.textStyle}>Notification Screen</Text>
         </View>
     );
 };

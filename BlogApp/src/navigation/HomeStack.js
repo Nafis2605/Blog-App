@@ -4,20 +4,20 @@ import { createStackNavigator } from "@react-navigation/stack"
 import HomeScreen from "../screens/HomeScreen"
 import PostScreen from "../screens/PostScreen";
 
-const PostStack = createStackNavigator();
+const HomeStack = createStackNavigator();
 
-const PostStackScreen = () => {
+const HomeStackScreen = () => {
     return (
-        <PostStack.Navigator initialRouteName="Home">
-            <PostStack.Screen
+        <HomeStack.Navigator initialRouteName="Home">
+            <HomeStack.Screen
                 name="Home"
                 component={HomeScreen}
             />
-            <PostStack.Screen
+            <HomeStack.Screen
                 name="Post"
                 component={PostScreen}
             />
-        </PostStack.Navigator>
+        </HomeStack.Navigator>
     );
 }
-export default PostStackScreen;
+export default HomeStackScreen;
